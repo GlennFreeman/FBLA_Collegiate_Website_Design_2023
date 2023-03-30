@@ -18,7 +18,6 @@ body {
     border: 1px;
     border-style: solid;
     border-top-style: none;
-    border-bottom-style: none;
     border-color: #2D2D2A;
 }
 
@@ -130,6 +129,7 @@ nav img{
 }
 .truck-name {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -139,4 +139,18 @@ nav img{
 
 .truck-img img {
     height: 100%;
+}
+
+.truck-container {
+    display: flex;
+    width: 98%;
+    margin: 1%;
+    background-color: #F9E7E7;
+}
+
+.truck-description {
+    text-align: left;
+    color: #2D2D2A;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
 }
