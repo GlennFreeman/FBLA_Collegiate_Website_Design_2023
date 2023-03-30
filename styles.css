@@ -39,11 +39,6 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color: #7D938A;
-    /* replace with box shadow inset */
-    border: 5px;
-    border-style: none;
-    border-bottom-style: solid;
-    border-color: #576660;
 
 }
 
@@ -52,10 +47,6 @@ nav div {
     width: 20%;
 }
 
-.button-container {
-    background-color: #7D938A;
-    position: relative;
-}
   
 nav img{
     max-height: 60px;
@@ -68,6 +59,19 @@ nav img{
 
 .logo {
     transform: scaleX(-1);
+    box-shadow: inset 0px -5px #576660;
+}
+.logo a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -5px #576660;
 }
 
 .nav-button a {
@@ -75,6 +79,10 @@ nav img{
     text-decoration: none;
     color: #F9E7E7;
     font-size: 20pt;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 32px;
 }
 
 .nav-button:hover, .logo:hover {
@@ -83,6 +91,9 @@ nav img{
 
 #current-page {
     background-color: #576660;
+    border: 2px solid #576660;
+    border-top-style: none;
+    border-bottom-style: none;
 }
 
 .event-banner {
