@@ -1,9 +1,9 @@
 body {
     font-family: Inter, sans-serif;
     color: #F9E7E7;
-    background-image: url(resources/background\ pattern.png);
+    background-image: url(resources/pattern.svg);
     background-repeat: repeat;
-    background-size: 50%;
+    background-size: 40%;
     margin: 0;
 }
 
@@ -56,8 +56,19 @@ nav img{
 }
 
 .banner {
-    background-color: #7D938A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 64px;
+    background-image: url(resources/scene\ preview.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner h1 {
+    font-size: 50pt;
+    -webkit-text-stroke: 2px #2D2D2A;
 }
 
 .logo {
