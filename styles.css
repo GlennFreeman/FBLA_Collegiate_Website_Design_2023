@@ -169,19 +169,27 @@ nav img{
     color: #2D2D2A;
 }
 
+.truck-description p {
+    margin: 0;
+}
+
 .event-preview {
     aspect-ratio: 1/1;
     margin: 1%;
     border: solid 1px #2D2D2A;
-    overflow: hidden;
+    width: 222px;
+}
+
+.event-preview a {
+    color: #F9E7E7;
 }
 
 .event-img {
     display: flex;
     justify-content: center;
-    width: 100%;
+    max-width: 100%;
     height: 90%;
-    background-color: chocolate;
+    background-color: #2D2D2A;
 }
 
 .event-name {
@@ -196,6 +204,7 @@ nav img{
 
 .event-img img {
     height: 100%;
+    overflow: hidden;
 }
 
 .event-container {
@@ -208,6 +217,7 @@ nav img{
 .event-description {
     text-align: left;
     color: #2D2D2A;
+    padding-top: 1%;
     padding-left: 1.5%;
     padding-right: 1.5%;
 }
@@ -234,6 +244,7 @@ nav img{
     background-color: #F9E7E7;
     color: #2D2D2A;
     margin: 1%;
+    border-radius: 25px 25px 0 0;
 }
 
 .menu-container h2 {
@@ -266,8 +277,16 @@ nav img{
     color: #2D2D2A;
     margin: 1%;
     padding-bottom: 2%;
+    border-radius: 0 0 25px 25px;
 }
 
 .solo-truck-about p {
+    text-align: left;
+}
+
+.solo-event-description {
+    background-color: #F9E7E7;
+    color: #2D2D2A;
+    margin: 1%;
     text-align: left;
 }
