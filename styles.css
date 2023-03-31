@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+body a {
+    text-decoration: none;
+}
+
 .centered-container {
     display: flex;
     flex-direction: column;
@@ -75,7 +79,6 @@ nav img{
 
 .nav-button a {
     font-weight: 700;
-    text-decoration: none;
     color: #F9E7E7;
     font-size: 20pt;
     width: 100%;
@@ -127,6 +130,7 @@ nav img{
     height: 90%;
     background-color: chocolate;
 }
+
 .truck-name {
     display: flex;
     flex-direction: row;
@@ -155,6 +159,10 @@ nav img{
     padding-right: 1.5%;
 }
 
+.truck-description a {
+    color: #2D2D2A;
+}
+
 .event-preview {
     aspect-ratio: 1/1;
     margin: 1%;
@@ -169,6 +177,7 @@ nav img{
     height: 90%;
     background-color: chocolate;
 }
+
 .event-name {
     display: flex;
     flex-direction: row;
@@ -197,6 +206,47 @@ nav img{
     padding-right: 1.5%;
 }
 
+.event-description a {
+    color: #2D2D2A;
+}
+
 .event-description h2, h3, p {
     margin: 1%;
+}
+
+.solo-truck-banner img {
+    width: 99.9%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.menu-container {
+    background-color: #F9E7E7;
+    color: #2D2D2A;
+    margin: 1%;
+}
+
+.menu-container h2 {
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.menu-container hr {
+    width: 80%;
+    color: #2D2D2A;
+}
+
+.menu-items div {
+    display: flex;
+    align-items: baseline;
+    margin: 0% 5% 1% 5%;
+}
+
+.menu-items p {
+    display: inline;
+}
+
+.menu-items span {
+    flex: 1;
+    border-bottom: 2px dotted #2D2D2A;
 }
