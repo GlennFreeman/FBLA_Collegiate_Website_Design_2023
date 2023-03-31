@@ -26,6 +26,22 @@ body a {
     border-color: #2D2D2A;
 }
 
+#orders{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    min-width: 480px;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F9E7E7;
+    border: 1px;
+    border-style: solid;
+    border-top-style: none;
+    border-color: #2D2D2A;
+}
+
+
 .navbar-container {
     width: 50%;
     text-align: center;
@@ -61,14 +77,14 @@ nav img{
     align-items: center;
     justify-content: center;
     height: 64px;
-    background-image: url(resources/scene\ preview.png);
+    background-image: url(resources/banner3.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .banner h1 {
-    font-size: 50pt;
+    font-size: 4vw;
     -webkit-text-stroke: 2px #2D2D2A;
 }
 
@@ -92,7 +108,7 @@ nav img{
 .nav-button a {
     font-weight: 700;
     color: #F9E7E7;
-    font-size: 20pt;
+    font-size: 2.5vw;
     width: 100%;
     height: 100%;
     display: block;
@@ -301,3 +317,17 @@ nav img{
     margin: 1%;
     text-align: left;
 }
+
+.location-image img {
+    width: 100%;
+    object-fit: cover;
+
+}
+/*
+@media screen and (min-width: 800px) {
+
+    .banner h1{
+        font-size: 10px; 
+    }
+  }
+  */
